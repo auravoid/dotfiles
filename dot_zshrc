@@ -1,0 +1,8 @@
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="bira"
+CASE_SENSITIVE="false"
+HYPHEN_INSENSITIVE="true"
+ENABLE_CORRECTION="true"
+export EDITOR='micro'
+plugins=(git docker-compose history lol qrcode)
+source $ZSH/oh-my-zsh.sh
